@@ -3,7 +3,6 @@ Rails.application.routes.draw do
   root to: "rooms#index"
   resources :users, only: [:edit, :update]
 <<<<<<< Updated upstream
-  resources :rooms, only: [:new, :create, :destroy] do
 =======
   resources :rooms, only: [:new, :create] do
 >>>>>>> Stashed changes
